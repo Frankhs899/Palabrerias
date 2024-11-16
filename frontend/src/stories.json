@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "questions": {
+      "1": "Un nombre masculino",
+      "2": "Un nombre",
+      "3": "Un lugar",
+      "4": "Una cosa en plural y masculina",
+      "5": "Una cosa en plural",
+      "6": "Un vehículo",
+      "7": "Describa el vehículo en una palabra",
+      "8": "Una cosa",
+      "9": "Una ocupación",
+      "10": "Un nombre",
+      "11": "Una cosa",
+      "12": "Describa la cosa en una palabra",
+      "13": "Una emoción",
+      "14": "Un animal"
+    },
+    "title": "El Gran Viaje",
+    "history": "{1} y {2} decidieron que era el momento perfecto para hacer un viaje inolvidable a {3}. Llenos de entusiasmo, recogieron sus {4} favoritos y sus {5} más importantes, metiéndolos cuidadosamente en su {6} {7}. Con música sonando y una brisa agradable, el viaje parecía sacado de un sueño. Sin embargo, a mitad de camino, su {8} comenzó a emitir un sonido extraño y, de repente, explotó, dejándolos varados en medio de la nada. {1} sintió {13}, mientras que {2} trataba de mantener la calma. Justo cuando empezaban a perder la esperanza, apareció un {9} amable llamado {10}, montando un {14} que parecía sacado de un cuento. {10} no solo arregló el vehículo con destreza, sino que también les entregó una {11} {12} como amuleto de buena suerte. Con el vehículo reparado, {1} y {2} continuaron su viaje. Al llegar a {3}, descubrieron que el destino superaba todas sus expectativas y vivieron una aventura que nunca olvidarían."
+  },
+  {
+    "id": "2",
+    "questions": {
+      "1": "Un nombre femenino",
+      "2": "Una asignatura",
+      "3": "Un objeto",
+      "4": "Una palabra que describa el objeto anterior",
+      "5": "Un objeto",
+      "6": "Una palabra que describa el objeto anterior",
+      "7": "Un número",
+      "8": "Una pregunta",
+      "9": "Una respuesta a la pregunta",
+      "10": "Un nombre femenino",
+      "11": "Una frase",
+      "12": "Un adjetivo femenino",
+      "13": "Un lugar en la escuela",
+      "14": "Una actividad escolar",
+      "15": "Un evento"
+    },
+    "title": "El Gran Examen",
+    "history": "{1} estaba muy preocupada esa mañana. Sabía que tenía que tomar un examen crucial en la clase de {2}, pero su mente estaba en caos. Para empeorar las cosas, se dio cuenta de que había olvidado su {3} {4} en su {5} {6} el día anterior, lo que significaba que no pudo estudiar lo suficiente. Cuando llegó al {13}, donde se llevaría a cabo el examen, trató de calmarse respirando profundamente, pero no dejaba de pensar en lo importante que era este día. Durante el examen, se encontró atascada en la pregunta número {7}, '{8}'. Sin otra opción, decidió escribir lo primero que se le vino a la mente: {9}. Después de entregar su examen, pasó el resto del día participando en {14}, intentando no pensar demasiado en los resultados. Para su sorpresa, al final del {15}, su profesora, {10}, la llamó frente a la clase. Con una sonrisa, le dijo: '{11}'. {1} no podía creerlo: había pasado el examen con éxito. Se sintió tan {12} que casi se le saltaron las lágrimas. Había aprendido que a veces, la confianza en uno mismo es tan importante como el estudio."
+  },
+  {
+    "id": "3",
+    "questions": {
+      "1": "El nombre de una persona",
+      "2": "Un animal",
+      "3": "Un lugar",
+      "4": "Una comida especial",
+      "5": "Un adjetivo para describir la comida",
+      "6": "Un verbo en infinitivo relacionado con decorar o preparar",
+      "7": "Un objeto",
+      "8": "Un color llamativo",
+      "9": "Un sentimiento",
+      "10": "Un verbo en pasado",
+      "11": "Un adjetivo que describa calidad",
+      "12": "Un accesorio",
+      "13": "Una actividad o juego",
+      "14": "Un sonido festivo o relacionado con celebración"
+    },
+    "title": "La Fiesta Sorpresa Inolvidable",
+    "history": "{1} llevaba semanas planeando la fiesta sorpresa para su mejor amigo, {2}. Después de mucho pensarlo, decidió que {3} sería el lugar perfecto para la celebración. Quería que todo fuera especial, así que preparó {4} {5}, sabiendo que era el favorito de {2}. También le pidió a los invitados que trajeran un {7} {8} para decorar el lugar y que usaran {12} para darle un toque más festivo. Cuando todo estuvo listo, apagaron las luces y se escondieron. Finalmente, {2} llegó, acompañado por un sonido de {14} que hizo que todos se emocionaran. Al entrar, todos gritaron \"¡Sorpresa!\". {2} quedó con los ojos bien abiertos, sin poder creer lo que veía. Se sintió muy {9} y no pudo evitar sonreír de oreja a oreja. Durante la fiesta, jugaron a {13}, rieron y disfrutaron de la música. {2} {10} hasta que se le acabaron las energías, disfrutando de cada momento. Al final, {2} agradeció a {1} por organizar algo tan especial. Sin duda, fue una fiesta {11} que todos recordarán."
+  },
+  {
+    "id": "4",
+    "title": "La Gran Aventura Intergaláctica",
+    "questions": {
+      "1": "Un nombre",
+      "2": "Inventa el nombre de un planeta",
+      "3": "Un vehiculo espacial",
+      "4": "Un adjetivo que describa el vehiculo",
+      "5": "Una actividad espacial",
+      "6": "Un animal extraterrestre",
+      "7": "Un lugar misterioso",
+      "8": "Un sentimiento intenso",
+      "9": "Un verbo en pasado que exprese asombro (ej: contempló, admiró)",
+      "10": "Un adjetivo que describa una emoción duradera (ej: inspirado, transformado)"
+    },
+    "history": "{1}, el valiente explorador espacial, siempre había anhelado descubrir los secretos del cosmos. Y así, emprendió un viaje épico a {2}, un planeta que los científicos creían que podría albergar vida extraterrestre. A bordo de su {3} {4} nave, {1} surcó las vastas extensiones del espacio, maravillándose ante la belleza de las nebulosas y los cúmulos estelares. Al llegar a {2}, {1} se puso su traje espacial y salió a explorar. ¡Y qué aventura le esperaba! {1} pudo {5} por horas en la baja gravedad, sintiendo una libertad que nunca había experimentado. Durante sus exploraciones, se encontró con un {6} que lo observaba con curiosidad. Juntos, se adentraron en un {7} donde descubrieron formas de vida nunca antes vistas. {1} se sintió {8} ante la inmensidad del universo y la complejidad de la vida extraterrestre. Al regresar a la Tierra, {1} {9} las maravillas que había presenciado y se dio cuenta de que su vida había cambiado para siempre. Se sentía {10} y ansioso por compartir sus descubrimientos con el mundo."
+  }
+]
