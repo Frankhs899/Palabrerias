@@ -45,12 +45,12 @@ function Navbar() {
             label='Inicio'
           />
           <LinkNavbar
-            to='/'
+            to='/randomstory'
             icon={FaGamepad}
             label='Juegos'
           />
           <LinkNavbar
-            to='/'
+            to='/randomstory'
             icon={FaBook}
             label='Libros'
           />
@@ -60,7 +60,7 @@ function Navbar() {
             label='Musica'
           />
           <LinkNavbar
-            to='/'
+            to='https://github.com/Frankhs899/Palabrerias'
             icon={FaGithub}
             label='Código'
           />
