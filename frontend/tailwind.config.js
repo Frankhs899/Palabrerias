@@ -61,7 +61,7 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Bubblegum Sans', 'sans-serif'],
+        sans: ['"Comic Sans MS"', 'cursive'],
       },
     },
   },

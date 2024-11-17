@@ -3,9 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import './app.css';
 import Home from './pages/Home';
-import RamdomStory from './pages/RamdomStory';
+import Story from './pages/Story';
 
 function App() {
   return (
@@ -18,8 +17,8 @@ function App() {
             element={<Home />}
           />
           <Route
-            path='/randomstory'
-            element={<RamdomStory />}
+            path='/story/:id'
+            element={<Story />}
           />
         </Routes>
       </main>

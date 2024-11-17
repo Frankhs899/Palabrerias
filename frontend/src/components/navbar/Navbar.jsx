@@ -10,7 +10,7 @@ import {
 } from 'react-icons/fa';
 
 const LinkNavbar = ({ to, icon: Icon, label }) => (
-  <li className='hover:text-red-500 transition duration-300'>
+  <li className='hover:text-link-500 transition duration-300'>
     <Link
       to={to}
       className='flex flex-col items-center'
@@ -25,19 +25,19 @@ function Navbar() {
   return (
     <nav className='bg-secondary-500 text-paper-100'>
       <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
-        <a
-          href='#'
-          className='flex items-center space-x-3 rtl:space-x-reverse'
+        <Link
+          to='/'
+          className='flex items-center space-x-3 rtl:space-x-reverse hover:text-link-500 transition duration-300'
         >
-          <img
+          {/* <img
             src='https://flowbite.com/docs/images/logo.svg'
             className='h-8'
             alt='Flowbite Logo'
-          />
+          /> */}
           <span className='self-center text-2xl font-semibold whitespace-nowrap'>
             Palabrerías
           </span>
-        </a>
+        </Link>
         <ul className='w-full flex items-center justify-between mt-2 space-x-8 md:w-auto md:m-0'>
           <LinkNavbar
             to='/'
@@ -45,12 +45,12 @@ function Navbar() {
             label='Inicio'
           />
           <LinkNavbar
-            to='/randomstory'
+            to='/'
             icon={FaGamepad}
             label='Juegos'
           />
           <LinkNavbar
-            to='/randomstory'
+            to='/'
             icon={FaBook}
             label='Libros'
           />
