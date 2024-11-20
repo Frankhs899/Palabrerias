@@ -79,5 +79,80 @@
       "10": "Un adjetivo que describa una emoción duradera (ej: inspirado, transformado)"
     },
     "history": "{1}, el valiente explorador espacial, siempre había anhelado descubrir los secretos del cosmos. Y así, emprendió un viaje épico a {2}, un planeta que los científicos creían que podría albergar vida extraterrestre. A bordo de su {3} {4} nave, {1} surcó las vastas extensiones del espacio, maravillándose ante la belleza de las nebulosas y los cúmulos estelares. Al llegar a {2}, {1} se puso su traje espacial y salió a explorar. ¡Y qué aventura le esperaba! {1} pudo {5} por horas en la baja gravedad, sintiendo una libertad que nunca había experimentado. Durante sus exploraciones, se encontró con un {6} que lo observaba con curiosidad. Juntos, se adentraron en un {7} donde descubrieron formas de vida nunca antes vistas. {1} se sintió {8} ante la inmensidad del universo y la complejidad de la vida extraterrestre. Al regresar a la Tierra, {1} {9} las maravillas que había presenciado y se dio cuenta de que su vida había cambiado para siempre. Se sentía {10} y ansioso por compartir sus descubrimientos con el mundo."
+  },
+  {
+    "id": "5",
+    "title": "El Hechizo Inesperado",
+    "questions": {
+      "1": "Un nombre",
+      "2": "Una profesión mágica",
+      "3": "Un objeto mágico",
+      "4": "Un adjetivo para describir el objeto",
+      "5": "Un lugar místico",
+      "6": "Un hechizo (en pocas palabras)",
+      "7": "Un resultado inesperado",
+      "8": "Un animal mágico",
+      "9": "Un adjetivo que describa al animal",
+      "10": "Un sentimiento",
+      "11": "Un verbo en pasado que exprese sorpresa",
+      "12": "Una palabra para describir una experiencia inolvidable"
+    },
+    "history": "{1}, aprendiz de {2}, había estado practicando con un {3} {4} durante semanas. Un día, mientras exploraba {5}, decidió probar el hechizo {6} para impresionar a su maestro. Pero algo salió mal, y en lugar de lo esperado, ocurrió {7}. De repente, un {8} {9} apareció frente a {1}, observándolo con intensidad. {1} sintió {10} al darse cuenta del poder que había liberado. Mientras el animal se movía alrededor, {1} {11}, entendiendo que había creado algo único. Esa experiencia fue tan {12} que nunca olvidaría el día en que un simple hechizo cambió su vida para siempre."
+  },
+  {
+    "id": "6",
+    "title": "El Tesoro Perdido",
+    "questions": {
+      "1": "Un nombre",
+      "2": "Un lugar exótico",
+      "3": "Un objeto valioso",
+      "4": "Un adjetivo que describa el objeto",
+      "5": "Un medio de transporte",
+      "6": "Un acompañante",
+      "7": "Un obstáculo natural",
+      "8": "Una emoción intensa",
+      "9": "Un objeto para resolver el obstáculo",
+      "10": "Un verbo en pasado que exprese logro",
+      "11": "Una palabra para describir la recompensa"
+    },
+    "history": "{1} había soñado con encontrar el mítico tesoro escondido en {2}. Armado con un mapa antiguo y la determinación de un aventurero, partió en su {5} acompañado por {6}. Después de días de viaje, enfrentaron {7}, lo que los llenó de {8}. Pero gracias a su ingenio y un {9} que llevaba consigo, lograron superar el desafío. Finalmente, {1} y {6} {10} al llegar al lugar indicado. Allí encontraron un {3} {4}, que brillaba bajo la luz del sol. Era una recompensa tan {11} que sabían que su aventura había valido la pena."
+  },
+  {
+    "id": "7",
+    "title": "El Misterio del Museo",
+    "questions": {
+      "1": "Un nombre",
+      "2": "Un lugar famoso",
+      "3": "Un objeto histórico",
+      "4": "Un adjetivo para describir el objeto",
+      "5": "Un personaje ficticio o real",
+      "6": "Un verbo en pasado que exprese descubrimiento",
+      "7": "Un lugar secreto",
+      "8": "Un sentimiento",
+      "9": "Un objeto pequeño",
+      "10": "Un animal inesperado",
+      "11": "Un adjetivo para describir al animal",
+      "12": "Un verbo en pasado relacionado con escapar"
+    },
+    "history": "{1} siempre había querido visitar {2}, famoso por albergar el legendario {3} {4}. Mientras caminaba por los pasillos, notó algo extraño en la vitrina donde estaba el objeto: parecía que alguien lo había movido. De repente, {5} apareció en su mente, como si les estuviera guiando. {1} {6} un pasaje oculto detrás de un cuadro, que lo llevó a {7}. Allí, sintió {8} al ver un {9} que parecía ser la clave para resolver el misterio. Sin embargo, un {10} {11} apareció de la nada, obligando a {1} a {12} del lugar. Aunque no pudo resolver el enigma por completo, juró regresar para desentrañar todos los secretos del museo."
+  },
+  {
+    "id": "8",
+    "title": "El Torneo Legendario",
+    "questions": {
+      "1": "Un nombre",
+      "2": "Un deporte o juego",
+      "3": "Un lugar deportivo",
+      "4": "Un adjetivo para describir el lugar",
+      "5": "Un oponente",
+      "6": "Un objeto relacionado con el deporte",
+      "7": "Un adjetivo para describir el objeto",
+      "8": "Un número",
+      "9": "Una emoción",
+      "10": "Un verbo en pasado relacionado con ganar o perder",
+      "11": "Una celebración",
+      "12": "Una palabra para describir un logro memorable"
+    },
+    "history": "{1} había entrenado durante meses para competir en el torneo de {2}. El evento se llevaría a cabo en el {3}, un lugar {4} donde los mejores competidores se reunían. Su principal oponente, {5}, era conocido por su habilidad con el {6} {7}. El enfrentamiento fue intenso y llegó hasta la última ronda. Con el marcador en {8}-{8}, {1} sintió {9} pero no dejó que eso lo detuviera. Finalmente, {1} {10} con un movimiento magistral que dejó a todos asombrados. La victoria se celebró con una gran {11} y, para {1}, fue un momento tan {12} que sabía que nunca lo olvidaría."
   }
 ]

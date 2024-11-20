@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import stories from '../stories.json';
 
 function Story() {
@@ -9,9 +9,24 @@ function Story() {
   const [selectedStory, setSelectedStory] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+  const navigate = useNavigate();
+
+  const handleRandomStory = () => {
+    const randomIndex = Math.floor(Math.random() * stories.length);
+    const randomStory = stories[randomIndex];
+    navigate(`/story/${randomStory.id}`);
+  };
+
+  const resetForm = () => {
+    setAnswers({});
+    setIsSubmitted(false);
+  };
+
   useEffect(() => {
     const story = stories.find((s) => s.id === id);
     setSelectedStory(story);
+    resetForm();
+    console.log('Cambio historia');
   }, [id]);
 
   if (!selectedStory) {
@@ -48,6 +63,7 @@ function Story() {
         <form
           onSubmit={handleSubmit}
           className='w-full bg-white p-6 rounded-lg shadow-lg space-y-4'
+          autoComplete='off'
         >
           <h1 className='text-2xl font-bold text-center text-paper-800 mb-4'>
             {selectedStory.title}
@@ -87,7 +103,7 @@ function Story() {
 
           <button
             type='submit'
-            className='bg-info-500 text-white text-lg font-medium py-2 px-4 w-full rounded-lg hover:bg-info-600 transition-colors'
+            className='bg-link-500 text-white text-lg font-medium py-2 px-4 w-full rounded-lg hover:bg-link-600 transition-colors'
           >
             Enviar respuestas
           </button>
@@ -99,10 +115,16 @@ function Story() {
           </h2>
           <p className='text-paper-700'>{filledHistory}</p>
           <button
-            onClick={() => setIsSubmitted(false)}
-            className='bg-info-500 text-white py-2 px-4 rounded-lg hover:bg-info-600 transition-colors w-full'
+            onClick={resetForm}
+            className='bg-link-500 text-white py-2 px-4 rounded-lg hover:bg-link-600 transition-colors w-full'
           >
-            Crear otra historia
+            Rehacer historia
+          </button>
+          <button
+            onClick={handleRandomStory}
+            className='bg-secondary-500 text-white py-2 px-4 rounded-lg hover:bg-secondary-600 transition-colors w-full'
+          >
+            Nueva historia
           </button>
         </div>
       )}
