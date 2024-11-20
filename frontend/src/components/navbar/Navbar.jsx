@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { FaGithub, FaHome, FaRandom } from 'react-icons/fa';
-
-import stories from '../../stories.json';
+import { Context } from '../../context/GlobalState';
+import PalabreriasLogo from '../logo/PalabreriasLogo';
 
 const LinkNavbar = ({ to, icon: Icon, label }) => (
   <li className='hover:text-link-500 transition duration-300'>
@@ -17,13 +17,7 @@ const LinkNavbar = ({ to, icon: Icon, label }) => (
 );
 
 function Navbar() {
-  const navigate = useNavigate();
-
-  const handleRandomStory = () => {
-    const randomIndex = Math.floor(Math.random() * stories.length);
-    const randomStory = stories[randomIndex];
-    navigate(`/story/${randomStory.id}`);
-  };
+  const { handleRandomStory } = useContext(Context);
 
   return (
     <nav className='bg-secondary-500 text-paper-100'>
@@ -32,11 +26,7 @@ function Navbar() {
           to='/'
           className='flex items-center space-x-3 rtl:space-x-reverse hover:text-link-500 transition duration-300'
         >
-          {/* <img
-            src='https://flowbite.com/docs/images/logo.svg'
-            className='h-8'
-            alt='Flowbite Logo'
-          /> */}
+          <PalabreriasLogo />
           <span className='self-center text-2xl font-semibold whitespace-nowrap'>
             Palabrerías
           </span>

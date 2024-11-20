@@ -1,15 +1,9 @@
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import stories from '../stories.json';
+import { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { Context } from '../context/GlobalState';
 
 function Home() {
-  const navigate = useNavigate();
-
-  const handleRandomStory = () => {
-    const randomIndex = Math.floor(Math.random() * stories.length);
-    const randomStory = stories[randomIndex];
-    navigate(`/story/${randomStory.id}`);
-  };
+  const { handleRandomStory, stories } = useContext(Context);
 
   return (
     <div className='min-h-full w-full flex flex-col items-center'>

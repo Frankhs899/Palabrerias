@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
@@ -8,24 +8,22 @@ import Story from './pages/Story';
 
 function App() {
   return (
-    <HashRouter>
-      <div className='min-h-screen w-full flex flex-col bg-primary-400'>
-        <Navbar />
-        <main className='min-h-full w-full flex flex-grow p-4'>
-          <Routes>
-            <Route
-              path='/'
-              element={<Home />}
-            />
-            <Route
-              path='/story/:id'
-              element={<Story />}
-            />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </HashRouter>
+    <div className='min-h-screen w-full flex flex-col bg-primary-400'>
+      <Navbar />
+      <main className='min-h-full w-full flex flex-grow p-4'>
+        <Routes>
+          <Route
+            path='/'
+            element={<Home />}
+          />
+          <Route
+            path='/story/:id'
+            element={<Story />}
+          />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
   );
 }
 

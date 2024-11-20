@@ -1,21 +1,15 @@
-import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import stories from '../stories.json';
+import { useState, useEffect, useContext } from 'react';
+import { useParams } from 'react-router-dom';
+import { Context } from '../context/GlobalState';
 
 function Story() {
+  const { handleRandomStory, stories } = useContext(Context);
+
   const { id } = useParams();
   const [answers, setAnswers] = useState({});
   const [filledHistory, setFilledHistory] = useState('');
   const [selectedStory, setSelectedStory] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
-
-  const navigate = useNavigate();
-
-  const handleRandomStory = () => {
-    const randomIndex = Math.floor(Math.random() * stories.length);
-    const randomStory = stories[randomIndex];
-    navigate(`/story/${randomStory.id}`);
-  };
 
   const resetForm = () => {
     setAnswers({});
